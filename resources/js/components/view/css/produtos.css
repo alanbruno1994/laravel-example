@@ -1,0 +1,185 @@
+.produtos
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;  
+    position: relative;
+}
+
+.bodyProdutos{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tituloProdutos
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.buttonIconProdutos
+{
+    background-color: rgba(255, 0, 0, 0);
+    border:0px;
+    cursor: pointer;
+}
+
+.buttonIconProdutos svg
+{
+    width: 32px;
+    height: 32px;
+}
+
+.tituloProdutos h1
+{
+    color: white;
+    font-size: 32px;
+}
+
+.tituloProdutos button
+{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #2179BE;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.tituloProdutos span
+{
+    margin: 10px;
+}
+
+.areaInput
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(7, 7, 7, 0.305);
+    z-index: 5;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FiltroProdutos
+{
+    width: 300px;  
+    background-color: #323232;  
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaInputFiltroProdutos
+{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.areaInputFiltroProdutos h1
+{
+    color: white;
+    font-family: "Montserrat",sans-serif;
+    font-size: 21px;
+}
+
+.areaInputFiltroProdutos input
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.areaInputFiltroProdutos button
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #2179BE;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.areaInputFiltroProdutos label
+{
+    color: white;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+}
+
+@media(max-width:400px)
+{
+    .tituloProdutos h1
+    {    
+        font-size: 26px;
+    }
+
+    .buttonIconProdutos svg
+    {
+        width: 26px;
+        height: 26px;
+    }
+
+    .tituloProdutos button
+{
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #2179BE;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+}
+
+@media(max-width:1200px)
+{
+    .bodyProdutos{
+        width: 98%;        
+    }
+}
+
+@media(max-width:340px)
+{
+    .tituloProdutos h1
+    {    
+        font-size: 15px;
+        
+    }
+
+    .buttonIconProdutos svg
+    {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+
+@media(max-width:280px)
+{
+    .tituloProdutos h1
+    {    
+        font-size: 13px;
+        
+    }
+
+    .buttonIconProdutos svg
+    {
+        width: 13px;
+        height: 13px;
+    }
+}
